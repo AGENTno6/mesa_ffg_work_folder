@@ -1,6 +1,5 @@
 # The Command Line Interface, Introduction to Git, GitHub and VSCode
 
----
 Here's a list of useful commands that you'll repeatedly use in your VS Code terminal and or in the console.
 
 `cd` = change directory.
@@ -16,7 +15,7 @@ If I wanted to go from the notes folder into the main folder I'd use `cd ..`.
 
 `git add [filename]` = allows you to add a file or all (.) to your stage to be committed to the history.
 
-`git push` = allows you to push up all your committed code to your remote GitHub environment. 
+`git push` = allows you to push up all your committed code to your remote GitHub environment.
 
 `git reset [filename]` = allows you to unstage a file while retaining the changes in working directory.
 
