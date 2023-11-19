@@ -6,4 +6,4 @@ You each have your own folders and files holding my feedback to your submissions
 
 I will also provide any and all notes requested here, within the notes folder.
 
-**Feel free to reach me at destinyh@ffg.digital**
+**Feel free to reach me via email**
