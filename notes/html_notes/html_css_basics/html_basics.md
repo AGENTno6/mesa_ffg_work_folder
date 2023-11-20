@@ -18,4 +18,15 @@
    <p id="last-paragraph">This is some fluff.</p>
 </div>
 ```
-------------------------------------------------------
+
+---
+
+### Everything is a Box!!
+
+**Things to know:**
+
+- HTML and CSS are languages just like JavaScript.
+  - Lets look back at our toolbags to remember what each language allows us to do:
+    image.png
+
+I know it sounds quirky but the best way to think in HTML is with the idea that **everything is a box**.
