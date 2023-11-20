@@ -1,7 +1,5 @@
 ## HTML Basics
 
----
-
 ### The Basics
 
 - HTML elements are created with tags: `<openingTag>content to be shown</closingTag>`.
@@ -20,3 +18,4 @@
    <p id="last-paragraph">This is some fluff.</p>
 </div>
 ```
+------------------------------------------------------
