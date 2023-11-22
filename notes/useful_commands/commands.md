@@ -7,7 +7,9 @@ Here's a list of useful commands that you'll repeatedly use in your VS Code term
 If I wanted to go from the notes folder into the main folder I'd use `cd ..`.
 
 **This command is used to make a new directory(folder) within your VS Code environment.**
-<br>`mkdir` = make directory.
+<br>
+
+`mkdir` = make directory.
 
 `ls` = list = when you use this command it will list all the contents of that folder.
 
@@ -16,6 +18,8 @@ If I wanted to go from the notes folder into the main folder I'd use `cd ..`.
 `git add [filename]` = allows you to add a file or all (.) to your stage to be committed to the history.
 
 `git push` = allows you to push up all your committed code to your remote GitHub environment.
+
+`git clone [paste SSH key here]` = allows you to clone remote GitHUb repositories into your local environment(VS Code editor).
 
 `git reset [filename]` = allows you to unstage a file while retaining the changes in working directory.
 
