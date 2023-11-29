@@ -3,6 +3,8 @@
 ## The Basics
 
 - HTML elements are created with tags: `<openingTag>content to be shown</closingTag>`.
+- The elements job is to structure and define the page.
+- The **HTML Tag** is the element name surrounded by opening '<' and closinf '<' angle brackets. 
 - Some HTML elements have self closing tags like the image tag: `<img />`.
 - HTML elements have **attributes** that add necessary information about the element.
   - **Ie:** The `src` attribute used in an image element, `<img />`, tells the browser which image to display.
@@ -18,10 +20,23 @@
    <p id="last-paragraph">This is some fluff.</p>
 </div>
 ```
+
+## HTML Structure 
+HTML is structured as a collection of family tree relationships. The element inside another element is considered the child of that parent element. 
+
+### The Body
+**Only content within the opening and closing <body> tags can be (rendered)displayed to the screen.**
+
+```
+<body>
+  <p>This text is the child of the body.</p>
+</body>
+```
 -------------------
 ### Understanding your elements.⚗️
 ![image](https://github.com/AGENTno6/mesa_ffg_work_folder/assets/114108199/0bf266fe-71ea-426a-9f55-9a5e92a21923)
 
+Above is a diagram of how an HTML element is structured. You use attributes like the *style* attribute by giving it a **value** in order to manipulate the style of the element.
 
 ---
 ## Here are some common HTML elements used:
