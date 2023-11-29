@@ -11,6 +11,9 @@ If I wanted to go from the notes folder into the main folder I'd use `cd ..`.
 
 `mkdir` = make directory.
 
+`touch` = creates a new file within the working directory. This command takes a file name as an argument.
+**Ie. `$touch index.html**
+
 `ls` = list = when you use this command it will list all the contents of that folder.
 
 `git status` = shows you the status of the modified files.
