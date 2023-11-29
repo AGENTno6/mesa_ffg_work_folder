@@ -20,7 +20,7 @@
 ```
 -------------------
 ### Understanding your elements.⚗️
-
+![image](https://github.com/AGENTno6/mesa_ffg_work_folder/assets/114108199/0bf266fe-71ea-426a-9f55-9a5e92a21923)
 
 
 ---
