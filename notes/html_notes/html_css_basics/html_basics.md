@@ -41,6 +41,10 @@ HTML is structured as a collection of family tree relationships. The element ins
 `<div>` is short for **division**; also known as a container that divides the page into sections.
 <br> `<div>`'s can contain any type of content.
 
+### Attributes
+
+**Attributes**- content added to the openeing tag of an element && could be used for many things lke **providing info** to _changing styling_.
+
 ### Text
 
 Paragraphs (`<p>`) contain a block of plain text.
@@ -51,6 +55,28 @@ Paragraphs (`<p>`) contain a block of plain text.
 HTML can be used to style text.
 <br> The `<em>` tag will render as _italic_ emphasis.
 The `<strong>` tag will render as **BOLD** emphasis.
+
+Styling can take place inline:
+
+```
+<div style="width:400px; background-color:'green';">
+  <div style="width:200px;">
+    <h3>One small div</h3>
+  </div>
+    <div style="width:200px; background-color:'blue';">
+    <h3>Another small div</h3>
+  </div>
+</div>
+
+And via your linkedCSS Stylesheet.
+```
+
+### Line Breaks
+
+Spacing between code does **NOT** affect the positioning of elements when they're rendered. (You must manually place and position everything.)
+
+`<br>` - the line break element.
+Only composed of an opening tag.
 
 ### Un-ordered Lists
 
@@ -79,6 +105,44 @@ Ordered lists, `<ol></ol>`, list each item numbered.
 - useful for writing different steps or ranking first to last.
   Individual list items are written as, `<li>Crack eggs</li>`.
 
+### Images
+
+`<img>` tag allows you to link an image to a webpage.<br>
+**self closing tag**
+
+`<img src='image_name.png'/>`
+
+<br> The image tag has a required attribute called `src`.
+<br> The `src ` attribute **MUST** be set to the images source, or location of the image.
+
+<a></a> defines a hyperlink, which is used to link something from one page to another. The most important attribute is `href` because it is used to specify the link destination.
+
+### Image Alts
+
+`alt` attribute = alternate text - the value should be a description of the image.
+**can be added to the image tag like the src attribute**
+
+#### Purposes of The alt Attribute
+
+- If the site fails to show an image; you can hover over theintended spot and read the description provided through the `alt` attribute.
+- When the visually impaired browse the web, they use a screen reader. Descriptions coded can be read aloud to your visually impaired users **IF** one uses the `alt` attribute.
+- Utilizing the `alt` attribute plays a role in _Search Engine Optimization (SEO)_ by improving a sites ranking because search engines cant "see" the images, so the description is helpful to it.
+
+### Videos
+
+The `<video>` element requires a `src` attribute and a opening and closing tag.
+**Ie:** <br>
+
+```
+<video src="my_video.mp4" width:'320' height:'260' controls > Video Not Supported.</video>
+```
+
+The width and height attributes are used to set the size of the vido displayed in the browser.
+
+<br>
+The **controls** attribute tells the browser to include basic video controls with the video, like pausing and playing.
+
+The text "Video Not Supported." between the opening and closing tags will **ONLY** be displayed if the browser is unable to load the video. 
 ---
 
 ### Understanding your elements.⚗️
