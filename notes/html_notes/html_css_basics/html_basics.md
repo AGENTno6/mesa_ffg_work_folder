@@ -7,7 +7,7 @@
 - The **HTML Tag** is the element name surrounded by opening '<' and closing '>' angle brackets.
 - Some HTML elements have self closing tags like the image tag: `<img />`.
 - HTML elements have **attributes** that add necessary information about the element.
-  - **Attributes have 2 components, the *name of the attribute* and the *value of the attribute* element**.
+  - **Attributes have 2 components, the _name of the attribute_ and the _value of the attribute_ element**.
   - **Ie:** The `src` attribute used in an image element, `<img />`, tells the browser which image to display.
   - **Ie:** The `href` attribute tells the browser where to direct users who click on the link. `<a href="insert url here">Click this link!</a>`
   - Other attributes like the `id` and `class` attributes do come in handy to add additional information but we wont worry about them just yet.
@@ -37,23 +37,33 @@ HTML is structured as a collection of family tree relationships. The element ins
 ```
 
 ### Divs
-`<div>` is short for **division**; also known as a container that divides the page into sections. 
+
+`<div>` is short for **division**; also known as a container that divides the page into sections.
 <br> `<div>`'s can contain any type of content.
 
 ### Text
+
+Paragraphs (`<p>`) contain a block of plain text.
+`<span>`'s contain short pieces of text or other HTML. Theyre used to separate small pieces of content that're on the same line as other content.
+
+**For dividing content into blocks, use `<div>`'s.**
+
 HTML can be used to style text.
-<br> The `<em>` tag will render as *italic* emphasis.
+<br> The `<em>` tag will render as _italic_ emphasis.
 The `<strong>` tag will render as **BOLD** emphasis.
 
 ### Un-ordered Lists
+
 The un-ordered list tag, `<ul>`
+
 - is used to create a list of items in **NO ORDER**.
 - outlines individual items with a bullet point.
 
-The `<ul>` element shouldn't hold raw text and wont *automatically* format raw text into an un-ordered list of items.
+The `<ul>` element shouldn't hold raw text and wont _automatically_ format raw text into an un-ordered list of items.
 Individual items must be added to the list using the list tag, `<li></li>`.
 
 Example:
+
 ```
 <ul>
   <li>Limes</li>
@@ -63,10 +73,13 @@ Example:
 ```
 
 ### Ordered Lists
+
 Ordered lists, `<ol></ol>`, list each item numbered.
+
 - useful for writing different steps or ranking first to last.
-Individual list items are written as, `<li>Crack eggs</li>`.
-----------------
+  Individual list items are written as, `<li>Crack eggs</li>`.
+
+---
 
 ### Understanding your elements.⚗️
 
