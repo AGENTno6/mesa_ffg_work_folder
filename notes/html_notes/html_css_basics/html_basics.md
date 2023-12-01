@@ -45,6 +45,17 @@ HTML is structured as a collection of family tree relationships. The element ins
 
 **Attributes**- content added to the openeing tag of an element && could be used for many things lke **providing info** to _changing styling_.
 
+### Headings
+There  are 6 different heading elements:
+```
+<h1> Biggest font size </h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>Smallest font size </h6>
+```
+
 ### Text
 
 Paragraphs (`<p>`) contain a block of plain text.
@@ -68,7 +79,7 @@ Styling can take place inline:
   </div>
 </div>
 
-And via your linkedCSS Stylesheet.
+And via your linked CSS Stylesheet.
 ```
 
 ### Line Breaks
@@ -137,9 +148,7 @@ The `<video>` element requires a `src` attribute and a opening and closing tag.
 <video src="my_video.mp4" width:'320' height:'260' controls > Video Not Supported.</video>
 ```
 
-The width and height attributes are used to set the size of the vido displayed in the browser.
-
-<br>
+The width and height attributes are used to set the size of the vido displayed in the browser.<br>
 The **controls** attribute tells the browser to include basic video controls with the video, like pausing and playing.
 
 The text "Video Not Supported." between the opening and closing tags will **ONLY** be displayed if the browser is unable to load the video. 
@@ -150,15 +159,6 @@ The text "Video Not Supported." between the opening and closing tags will **ONLY
 ![image](https://github.com/AGENTno6/mesa_ffg_work_folder/assets/114108199/0bf266fe-71ea-426a-9f55-9a5e92a21923)
 
 Above is a diagram of how an HTML element is structured. You use attributes like the _style_ attribute by giving it a **value** in order to manipulate the style of the element.
-
----
-
-## Here are some common HTML elements used:
-
-`<p></p>` -> **the paragraph tag** -> this element is used for adding general **text** to your webpage.<br>
-`<div></div>` -> **the div tag** -> this element is used to define a division or section.
-<br> Headings come in various font size specified with tags `<h1>`, having the largest font-size, through `<h6>`, having the smallest font-size of the headings.
-<br> `<img />` -> **the image tag** -> this element is used to link an image to your webpage. In order to link
 
 ---
 
