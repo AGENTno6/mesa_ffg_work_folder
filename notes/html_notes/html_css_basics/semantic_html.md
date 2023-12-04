@@ -68,7 +68,7 @@ With better SEO, search engines are better able to identify the content of a sit
 **Audio Attributes**<br>
 `src`- specifies the URL of the audio file.<br>
 `type` - specifies the type of file.<br>
-`controls`: automatically displays the audio controls into the browser such as play and mute.
+`controls`- automatically displays the audio controls into the browser such as play and mute.
 
 ### Video
 
