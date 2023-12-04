@@ -162,17 +162,3 @@ The text "Video Not Supported." between the opening and closing tags will **ONLY
 ![image](https://github.com/AGENTno6/mesa_ffg_work_folder/assets/114108199/0bf266fe-71ea-426a-9f55-9a5e92a21923)
 
 Above is a diagram of how an HTML element is structured. You use attributes like the _style_ attribute by giving it a **value** in order to manipulate the style of the element.
-
----
-
-## Everything is a Box!!
-
-**Things to know:**
-
-- HTML and CSS are languages just like JavaScript.
-  - Lets look back at our toolbags to remember what each language allows us to do:
-    image.png
-
-I know it sounds quirky but the best way to think when it comes to HTML is with the idea that **everything is a box**.
-
----
