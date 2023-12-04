@@ -66,8 +66,8 @@ With better SEO, search engines are better able to identify the content of a sit
 **its best to specify the type of audio it is (refer to acceptable attribute values)**<br>
 
 **Audio Attributes**<br>
-`src`- specifies the URL of the audio file.
-`type` - specifies the type of file.
+`src`- specifies the URL of the audio file.<br>
+`type` - specifies the type of file.<br>
 `controls`: automatically displays the audio controls into the browser such as play and mute.
 
 ### Video
